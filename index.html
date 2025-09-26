@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Team Registration</title>
+</head>
+<body>
+  <h2>Enter Your Team Name</h2>
+  <form id="registerForm">
+    <input type="text" id="teamName" placeholder="Team Name" required />
+    <button type="submit">Register</button>
+  </form>
+
+  <div id="assignment"></div>
+
+  <script>
+    const sets = [
+      { api: "https://chronovoyage-api.onrender.com/mars", interface: "Terminal Window" },
+      { api: "https://chronovoyage-api.onrender.com/ignition", interface: "Computer desktop" },
+      { api: "https://chronovoyage-api.onrender.com/frost", interface: "Smart Phone" }
+    ];
+
+    let assignedCount = 0;
+
+    document.getElementById("registerForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const teamName = document.getElementById("teamName").value;
+      const set = sets[assignedCount % sets.length];
+      assignedCount++;
+
+      document.getElementById("assignment").innerHTML =
+        `<p><strong>${teamName}</strong>, you have been assigned:<br>
+         API: <code>${set.api}</code><br>
+         Interface: ${set.interface}</p>`;
+    });
+  </script>
+</body>
+</html>
