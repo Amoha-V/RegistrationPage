@@ -26,7 +26,3 @@ if st.button("Register"):
         st.markdown(f"- **Interface:** {assignment['interface']}")
     else:
         st.error("❌ Team name not found. Please check spelling.")
-
-# Optional: display all available teams for debugging
-with st.expander("Show all registered teams"):
-    st.write(list(team_assignments.keys()))
