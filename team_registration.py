@@ -15,7 +15,7 @@ team_assignments = {
 }
 
 # Input box for team name
-team_name = st.text_input("Enter Your Team Name")
+team_name = st.text_input("Enter Your Team Name (all lowercase)")
 
 # Submit button
 if st.button("Register"):
