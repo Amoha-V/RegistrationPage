@@ -10,7 +10,7 @@ team_assignments = {
     "TeamC": {"api": "https://chronovoyage-api.onrender.com/frost", "interface": "Smart Phone"},
     "TeamD": {"api": "https://chronovoyage-api.onrender.com/mars", "interface": "Terminal Window"},
     "TeamE": {"api": "https://chronovoyage-api.onrender.com/ignition", "interface": "Computer Desktop"},
-    "TeamF": {"api": "https://chronovoyage-api.onrender.com/frost", "interface": "Smart Phone"},
+    "Amoha": {"api": "https://chronovoyage-api.onrender.com/frost", "interface": "Smart Phone"},
     # Add more teams here...
 }
 
