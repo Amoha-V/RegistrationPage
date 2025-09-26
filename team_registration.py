@@ -5,12 +5,12 @@ st.title("🚀 Team Registration")
 
 # Hardcoded team-to-set mapping
 team_assignments = {
-    "TeamA": {"api": "https://chronovoyage-api.onrender.com/mars", "interface": "Terminal Window"},
-    "TeamB": {"api": "https://chronovoyage-api.onrender.com/ignition", "interface": "Computer Desktop"},
-    "TeamC": {"api": "https://chronovoyage-api.onrender.com/frost", "interface": "Smart Phone"},
-    "TeamD": {"api": "https://chronovoyage-api.onrender.com/mars", "interface": "Terminal Window"},
-    "TeamE": {"api": "https://chronovoyage-api.onrender.com/ignition", "interface": "Computer Desktop"},
-    "Amoha": {"api": "https://chronovoyage-api.onrender.com/frost", "interface": "Smart Phone"},
+    "priya": {"api": "https://chronovoyage-api.onrender.com/mars", "interface": "Terminal Window"},
+    "kishore": {"api": "https://chronovoyage-api.onrender.com/ignition", "interface": "Computer Desktop"},
+    "vichu": {"api": "https://chronovoyage-api.onrender.com/frost", "interface": "Smart Phone"},
+    "sandeep": {"api": "https://chronovoyage-api.onrender.com/mars", "interface": "Terminal Window"},
+    "bug busters": {"api": "https://chronovoyage-api.onrender.com/ignition", "interface": "Computer Desktop"},
+    "akilesh": {"api": "https://chronovoyage-api.onrender.com/frost", "interface": "Smart Phone"},
     # Add more teams here...
 }
 
